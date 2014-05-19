@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = "MIHQRCodeView"
-  s.version          = "1.0.1"
-  s.summary          = "A short description of MIHQRCodeView."
-  s.description      = "UIImageView subclass which displays an QR code."
+  s.version          = "1.0.2"
+  s.summary          = "UIImageView subclass which displays QR codes."
+  s.description      = "UIImageView subclass which allows to display any NSData as QR code with only one line of code."
   s.homepage         = "https://github.com/hohl/MIHQRCodeView"
   s.screenshots      = "https://raw.githubusercontent.com/hohl/MIHQRCodeView/master/Example/Screenshot.png"
   s.license          = 'MIT'
