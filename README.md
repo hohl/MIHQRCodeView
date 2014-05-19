@@ -5,9 +5,12 @@
 
 ## Usage
 
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
+MIHQRCodeView displays an QR code inside an UIImageView. The MIHQRCodeView is an UIImageView subclass itself which adds the following two properties:
 
-## Requirements
+    @property (strong, nonatomic) NSData *dataValue;
+    @property (assign, nonatomic) MIHQRErrorCorrectionLevel errorCorrectionLevel;
+
+Also have a look at the sample project in the `Example` directory.
 
 ## Installation
 
@@ -18,7 +21,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-Michael Hohl, me@michaelhohl.net
+ - [Michael Hohl](http://www.michaelhohl.net/)
 
 ## License
 

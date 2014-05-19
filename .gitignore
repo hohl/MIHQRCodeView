@@ -19,3 +19,7 @@ DerivedData
 *.hmap
 *.ipa
 
+# Jetbrains AppCode
+#
+.idea/
+atlassian-ide-plugin.xml
